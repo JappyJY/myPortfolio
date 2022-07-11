@@ -2,11 +2,11 @@ import config from '../../../config.json';
 
 const sumfetch = async (args: string[]): Promise<string> => {
     return `
-                ,---------------------------,                  sumfetch:
+                ,---------------------------,                  Social Media:
                 |  /---------------------\\  |                 -----------
                 | |                       | |                  ABOUT                
                 | |                       | |                  ${config.name}
-                | |       About me        | |                  <u><a href="${config.resume_url}" target="_blank">resume</a></u>
+                | |        Social         | |                  <u><a href="${config.resume_url}" target="_blank">resume</a></u>
                 | |                       | |                 -----------
                 | |                       | |                  CONTACT
                 |  \\_____________________/  |                  <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
